@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/estilospokedex.css" />
     <title>Pokedex API LaunchX</title>
   </head>
   <body>
     <h1>Pokedex API</h1>
-    <input type="text" name="pokemonName" id="pokeName" />
-    <img src="./assets/images/Pokeball.png" alt="imagen pokeball" id="pokeball" />
-    <button>New Pokemon</button>
+    <section class="column">
+      <input
+        type="text"
+        name="pokemonName"
+        id="pokeName"
+        placeholder="Nombre de un pokémon"
+      />
+      <img src="./assets/images/Pokeball.png" alt="imagen pokeball" id="pokeImg" />
+      <button onclick="pokeFetch()">Bring that Pokémon</button>
+    </section>
 
     <script src="./assets/js/pokedex.js"></script>
   </body>
