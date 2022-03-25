@@ -1,11 +1,87 @@
+.contenedor-pokedex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pokedex img {
+  width: 50%;
+}
+
 .column {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 300px;
+  width: 30%;
 }
 #pokeImg {
-  width: 200px;
+  position: relative;
+  right: 42vw;
+  bottom: 15vw;
+  width: 11vw;
+}
+.pokemon-nombre {
+  background-color: honeydew;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border-radius: 2px;
+  position: relative;
+  right: 62vw;
+  top: -12vw;
+  width: 19vw;
+  height: 3vw;
+}
+
+.pokemon-id {
+  background-color: honeydew;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border-radius: 2px;
+  position: relative;
+  right: 61vw;
+  top: -12vw;
+  width: 19vw;
+  height: 3vw;
+}
+.pokemon-tipo {
+  background-color: honeydew;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border-radius: 4px;
+  position: relative;
+  right: 48vw;
+  top: -22vw;
+}
+.pokemon-tipo-2 {
+  background-color: honeydew;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border-radius: 4px;
+  position: relative;
+  right: 48vw;
+  top: -22vw;
+}
+
+#pokeName {
+  background-color: #e63946;
+  color: white;
+  border-radius: 4px;
+  position: relative;
+  right: 55vw;
+  top: -4vw;
+  width: 8vw;
+  height: 3vw;
+}
+#boton {
+  background-color: honeydew;
+  border-radius: 8px;
+  padding: 1vw;
+  text-transform: uppercase;
+  position: relative;
+  right: 54vw;
+  top: -8vw;
+  width: 7vw;
 }
