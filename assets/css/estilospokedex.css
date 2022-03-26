@@ -1,3 +1,11 @@
+.titulo {
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  text-align: center;
+  padding: 15px;
+}
+
 .contenedor-pokedex {
   display: flex;
   justify-content: center;
